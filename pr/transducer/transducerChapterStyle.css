@@ -58,19 +58,16 @@ h1 {
 
  h2 {
   font-family: "Besley", serif;
-  font-size: large;
+  font-size: 1.5rem;
   color:rgb(3, 119, 5);
-  text-align: right;
-  max-width: 60rem;
-  margin: auto;
+  padding-bottom: .6rem;
+  font-weight: normal;
   }
 
 h3 {
-  text-align: center;
-  font-family: "Libre Baskerville", serif;
-  font-size: medium;
+  font-family: "Besley", "Libre Baskerville", serif;
+  font-size: large;
   color:rgb(7, 188, 10);
-  max-width: 60rem;
   }
 
 img {
@@ -261,11 +258,8 @@ p.jump:hover {
   font-style: normal;
 }
 
-/*wavy lines*/
-.linefont {
-  font-family: "Linefont", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 550;
-  font-style: normal;
-  font-variation-settings: 100;
+ul {
+  margin: auto;
+  font-size: 1.2rem;
+  padding-left: 9rem;
 }
