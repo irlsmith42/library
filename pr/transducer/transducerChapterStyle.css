@@ -1,48 +1,17 @@
 :root { scroll-behavior: smooth; }
 
-* {
-  background-color: rgb(214, 210, 206);
-}
+* { background-color: rgb(245, 254, 237); }
 
 /* main text */
-h1 {
-  font-family: "DM Serif Display", serif;
-  font-weight: 100;
-  font-size: xx-large;
-  color:rgb(3, 101, 49);
-  text-align: center;
-  }
-  
- h2 {
-  font-family: "Besley", serif;
-  font-size: large;
-  color:rgb(3, 119, 5);
-  text-align: right;
-  margin: 1em 2em;
-  max-width: 900px;
-  orphans: inherit;
-  }
-
-h3 {
-  text-align: center;
-  margin: auto;
-  font-family: "Libre Baskerville", serif;
-  font-size: medium;
-  color:rgb(7, 188, 10);
-  }
-
-img {
-  text-align: center;
-  margin: 1em auto;
-  max-width: 80vw;
-}
-
 p {
   font-family: "Besley", serif;
-  font-size: large;
+  font-size: 1.2rem;
   font-weight: 400;
-  margin: 1em 2em;
-  max-width: 900px;
+  text-indent: 2.5rem;
+  text-align: justify;
+  margin: auto;
+  padding: .1rem 2rem;
+  max-width: 55rem;
   orphans: inherit;
   line-height: 125%;
   color:rgb(0, 0, 0);
@@ -50,7 +19,9 @@ p {
 
 p.flashback {
   font-family: "Fira Mono", sans-serif;
-  line-height: normal;
+  line-height: 110%;
+  font-size: 1.3rem;
+  text-align: left;
 }
 
 p.epigraph {
@@ -61,9 +32,67 @@ p.epigraph {
   color:rgb(67, 67, 67);
 }
 
+p.date {
+  font-family: "Besley", serif;
+  font-size: 1.5rem;
+  color:rgb(3, 119, 5);
+  text-align: right;
+  padding-bottom: 1rem;
+}
+
+p.nav {
+  font-size: 1.5rem;
+  color:rgb(11, 198, 14);
+  text-align: right;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.8rem;
+  color:rgb(3, 101, 49);
+  max-width: 60rem;
+  margin: auto;
+  }
+.divider {
+  font-family: "Linefont", none;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  margin-left: -2rem;
+  overflow: hidden;
+  color:rgba(6, 213, 51, 0.579);
+}
+
+ h2 {
+  font-family: "Besley", serif;
+  font-size: large;
+  color:rgb(3, 119, 5);
+  text-align: right;
+  max-width: 60rem;
+  margin: auto;
+  }
+
+h3 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: medium;
+  color:rgb(7, 188, 10);
+  max-width: 60rem;
+  }
+
+img {
+  text-align: center;
+  margin: 1em auto;
+  max-width: 65rem;
+}
+
  /* unvisited link */
 a {
-  color:rgb(8, 178, 87);
+  color:rgb(11, 198, 14);
+}
+
+a:visited {
+  color:rgb(0, 167, 114);
 }
 
 /* fonts */
