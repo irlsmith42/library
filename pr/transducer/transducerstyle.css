@@ -17,11 +17,11 @@ h1 {
   }
   
 h2 {
-  font-weight: bold;  
   text-align: right;
+  font-family: "DM Serif Display", serif;
     padding-right: 51px; 
-    font-family: "Libre Baskerville", serif;
-    font-size: medium;
+    padding-bottom: .4em;
+    font-size: 30pt;
     color:rgb(233, 233, 233);
     margin: auto;
   }
@@ -29,9 +29,9 @@ h2 {
   h3 {
     text-align: center;
     margin: auto;
-    font-family: "Libre Baskerville", serif;
-    font-size: medium;
-    color:rgb(6, 122, 25);
+    font-family: "DM Serif Display", serif;
+    font-size: 40pt;
+    color:rgb(255, 255, 255);
   }
 img {
     text-align: center;
@@ -67,21 +67,25 @@ p {
   margin: -2em auto;
 }
 
-.summary. {
+.summary {
+  border-color: rgb(4, 127, 203);
+  border-style:solid;
+  border-width: 2px;
+  border-radius: .5em;
+  margin: auto;
+  padding: 2em;
+  max-width: 1150px;
+}
+
+.blurb {
   background-image: linear-gradient(180deg,
+  #3299ff,
   #3299ff,
   #ba47bc,
   #ff2a31);
   background-size: 100%;
   background-clip: text;
   -webkit-text-fill-color: transparent; 
-  border-color: rgb(255, 255, 255);
-  border-style:groove;
-  border-width: 3px;
-  border-radius: .5em;
-  margin: auto;
-  padding: 2em;
-  max-width: 1150px;
 }
 
 body {
@@ -97,16 +101,18 @@ button {
   color:rgba(146, 255, 197, 0.772);
   padding: 1rem;
   margin: 2rem;
-  border-style: ridge;
-  border-color:rgba(96, 255, 122, 0.49);
-  border-width: 4px;
+  border-color: rgb(4, 127, 203);
+  border-style:solid;
+  border-width: 2px;
+  border-radius: .5em;
   text-align: center;
   font-size: 40px;
 }
 
  /* unvisited link */
 a {
-  color:rgb(146, 255, 197);
+  color:rgb(4, 127, 203);
+  text-decoration: none;
 }
 
 
