@@ -7,7 +7,7 @@
 /* main text */
 h1 {
   margin: auto;
-  padding: 1em;
+  padding: 1rem;
   max-width: 11000px;    
   font-family: "Libre Baskerville", serif;
     font-size: x-large;
@@ -17,12 +17,12 @@ h1 {
   }
   
 h2 {
-  text-align: right;
-  font-family: "DM Serif Display", serif;
+    text-align: right;
+    font-family: "DM Serif Display", serif;
     padding-right: 51px; 
     padding-bottom: .4em;
     font-size: 30pt;
-    color:rgb(233, 233, 233);
+    color:rgb(255, 255, 255);
     margin: auto;
   }
 
@@ -36,9 +36,6 @@ h2 {
 img {
     text-align: center;
     margin: auto;
-    max-height: 200px;
-    opacity: 85%;
-    padding: 1em;
 }
 
 img:hover {
@@ -51,14 +48,14 @@ p {
   font-size: large;
   margin: auto;
   text-align: justify;
-  padding: 1em;
+  padding: 1rem;
   max-width: 1100px;
   orphans: inherit;
   color:rgb(233, 233, 233);
 }
 
 .cushion {
-  height: 80vh;
+  height: 70vh;
 }
 
 /*Page stuff */
@@ -67,13 +64,17 @@ p {
   margin: -2em auto;
 }
 
+.title img {
+  width: 70vw;
+  max-width: 600px;
+  padding: 2rem;
+}
+
 .summary {
-  border-color: rgb(4, 127, 203);
-  border-style:solid;
-  border-width: 2px;
+  border: 2px solid #ffffff;
   border-radius: .5em;
   margin: auto;
-  padding: 2em;
+  padding: 1rem;
   max-width: 1150px;
 }
 
@@ -98,20 +99,18 @@ body {
 
 button {
   background-color: #46403f00;
+  width: 80px;
+  height: 80px;
   color:rgba(146, 255, 197, 0.772);
-  padding: 1rem;
-  margin: 2rem;
-  border-color: rgb(4, 127, 203);
-  border-style:solid;
-  border-width: 2px;
-  border-radius: .5em;
+  border: 2px solid rgb(4, 127, 203);
+  border-radius: .25em;
   text-align: center;
   font-size: 40px;
 }
 
  /* unvisited link */
 a {
-  color:rgb(4, 127, 203);
+  color:rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -120,14 +119,24 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 .5em;
+  padding: 1em .5em;
+}
+
+.column img {
+  border: 2px solid rgb(255, 255, 255);
+  max-height: 200px;
+  opacity: 85%;
+  vertical-align: middle;
 }
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
   .column {
     width: 100vw;
-    padding: 8px 2px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem 2rem;
+
   }
  }
 
@@ -135,7 +144,10 @@ a {
  @media only screen and (min-width: 600px) {
   .column {
     width: 50%;
-    padding: 8px 2px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem 2rem;
+
   }
   
  }
@@ -144,7 +156,10 @@ a {
  @media only screen and (min-width: 768px) {  
   .column {
     flex: 30%;
+    flex-wrap: wrap;
     padding: 8px 2px;
+    margin: auto;
+
   }
   
 }
@@ -153,7 +168,10 @@ a {
  @media only screen and (min-width: 992px) {
   .column {
     flex: 30%;
+    flex-wrap: wrap;
     padding: 8px 2px;
+    margin: auto;
+
   }
   
 }
@@ -164,11 +182,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 8px 4px;
+    margin: auto;
+
   }
 
   .column {
     flex: 20%;
     padding: 8px 2px;
+    margin: auto;
+
   }
   
  } 
