@@ -6,19 +6,23 @@
 
 /* main text */
 h1 {
-    padding: 20px;
-    font-family: "Libre Baskerville", serif;
+  margin: auto;
+  padding: 1em;
+  max-width: 900px;    font-family: "Libre Baskerville", serif;
     font-size: x-large;
-    color:rgb(16, 200, 46);
+    font-weight: bold;
+    color:rgb(255, 255, 255);
 
   }
   
-  h2 {
-    text-align: right;
-    padding-right: 51px;
+h2 {
+  font-weight: bold;  
+  text-align: right;
+    padding-right: 51px; 
     font-family: "Libre Baskerville", serif;
     font-size: medium;
     color:rgb(233, 233, 233);
+    margin: auto;
   }
 
   h3 {
@@ -32,36 +36,29 @@ img {
     text-align: center;
     margin: auto;
     max-height: 200px;
+    opacity: 85%;
+    padding: 1em;
+}
+
+img:hover {
+  opacity: 100%;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
-  margin: 1.15em auto;
-  max-width: 900px;
+  font-weight: bold;
+  font-size: large;
+  margin: auto;
+  padding: 1em;
+  max-width: 1100px;
   orphans: inherit;
   color:rgb(233, 233, 233);
-}
-
-.notebook {
-    margin: 2em auto;
-    padding-right: 2em;
-    width: 80vw;
-}
-
-.skill {
-    margin: 2em auto;
-    padding-right: 2em;
-    width: 80vw;
-}
-
-.choice {
-  margin-right: 3em;
-  padding-right: 3em;
-  width: 70vw;
+  stroke: black;
+  stroke-width: 1px;
 }
 
 .cushion {
-  height: 90vh;
+  height: 80vh;
 }
 
 /*Page stuff */
@@ -71,15 +68,20 @@ p {
 }
 
 .summary {
-  background-image: rgb(255, 255, 255);
+  background-image: linear-gradient(180deg,
+  #005ab4,
+  #b606b9,
+  #ff0008);
   background-size: 100%;
   background-clip: text;
-  outline-color: rgb(6, 122, 25);
-  outline-style: inset;
-  outline-width: 3px;
+  -webkit-text-fill-color: transparent; 
+  border-color: rgb(255, 255, 255);
+  border-style:groove;
+  border-width: 3px;
   border-radius: .5em;
-  margin: 2.5em;
-  padding: 1em;
+  margin: auto;
+  padding: 2em;
+  max-width: 1150px;
 }
 
 body {
@@ -91,12 +93,15 @@ body {
 }
 
 button {
-  background-color: #46403f;
-  color:rgb(146, 255, 197);
-  padding: 1em;
-  border: none;
+  background-color: #46403f00;
+  color:rgba(146, 255, 197, 0.772);
+  padding: 1rem;
+  margin: 2rem;
+  border-style: ridge;
+  border-color:rgba(96, 255, 122, 0.49);
+  border-width: 4px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
  /* unvisited link */
@@ -109,8 +114,9 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 .5em;
 }
+
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
   .column {
@@ -164,6 +170,5 @@ a {
 /* Create 3 equal columns that sit next to each other */
 
 .column img {
-  margin-top: -12px;
   vertical-align: middle;
 }
