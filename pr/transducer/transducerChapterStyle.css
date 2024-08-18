@@ -18,10 +18,8 @@ p {
 }
 
 p.flashback {
-  font-family: "Fira Mono", sans-serif;
-  line-height: 110%;
-  font-size: 1.3rem;
-  text-align: left;
+  color:rgb(31, 36, 32);
+  max-width: 45rem;
 }
 
 p.epigraph {
@@ -37,7 +35,7 @@ p.date {
   font-size: 1.5rem;
   color:rgb(3, 119, 5);
   text-align: right;
-  padding-bottom: 1rem;
+  padding-bottom: .6rem;
 }
 
 p.nav {
@@ -50,17 +48,33 @@ p.nav {
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 2.8rem;
-  color:rgb(3, 101, 49);
+  color:rgb(1, 128, 60);
   max-width: 60rem;
   margin: auto;
+  padding-bottom: .5rem;
   }
 .divider {
   font-family: "Linefont", none;
-  font-size: 1.5rem;
-  padding: 1.2rem;
-  margin-left: -2rem;
+  font-size: 1rem;
+  padding: 1.3rem;
+  margin-left: -2.2rem;
   overflow: hidden;
-  color:rgba(6, 213, 51, 0.579);
+  background-image: linear-gradient(90deg,
+  #07b727,
+  #47acbc,
+  #ff2a31,
+  #ff2a31);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.divider.flashback {
+  background-image: linear-gradient(90deg,
+  #2b2b2b,
+  #9e9e9e,
+  #42ff5b,
+  #42ff5b);
 }
 
  h2 {
@@ -82,20 +96,154 @@ h3 {
 
 img {
   text-align: center;
-  margin: 1em auto;
-  max-width: 65rem;
+  margin: auto;
+  flex:auto;
 }
 
  /* unvisited link */
 a {
   color:rgb(11, 198, 14);
+  text-decoration: none;
 }
 
 a:visited {
   color:rgb(0, 167, 114);
 }
 
-/* fonts */
+/* Full Text Page*/
+
+.title {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.title img {
+  max-width: 45rem;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  img {
+    width: 80vw;
+    flex:auto;
+    margin: auto;
+    padding: 1rem;
+  }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+  img {
+    width: 80vw;
+    flex:auto;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {  
+  img {
+    max-width: 55rem;
+    flex:auto;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+  img {
+    max-width: 55rem;
+    flex:auto;
+    margin: auto;
+    padding: 3rem;
+  }
+  
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+  img {
+    max-width: 55rem;
+    flex:auto;
+    margin: auto;
+    padding: 3rem;
+  }
+  
+ } 
+
+.chapter {
+  padding-bottom: 15vh;
+}
+
+p.jump {
+  opacity: 20%;
+  text-align: center;
+  color:rgb(0, 167, 114);
+  font-size: 1rem;
+  text-indent: .3rem;
+  padding-bottom: 1rem;
+}
+
+p.jump:hover {
+  opacity:100%;
+}
+
+/* Dropdown Menu */
+.dropbtn {
+  background-color: rgb(1, 128, 60);
+  color: white;
+  padding: .3rem .7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  font-family: "Besley", serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 7rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(0, 57, 34);
+  padding-left: .5rem;
+  text-decoration: none;
+  font-family: "Besley", serif;
+  font-size: .9rem;
+  display: block;
+  border: 1px solid #004c3843;
+}
+
+.dropdown-content a:hover {
+  background-color: #dbfed6;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  max-height: 70vh;
+  overflow: scroll;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 192, 109);
+}
+
+/* FONTS */
 
 /*main text font*/
 .besley {

@@ -34,8 +34,8 @@ h2 {
     color:rgb(255, 255, 255);
   }
 img {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 img:hover {
@@ -200,3 +200,5 @@ a {
 .column img {
   vertical-align: middle;
 }
+
+/*emoji bank 🛰️🛸📻🔭🗂️☢️⌚️ */ 
