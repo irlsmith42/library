@@ -1,5 +1,7 @@
 :root { scroll-behavior: smooth; }
 
+
+
 .cushion {
     height: 25rem;
     width: 1rem;
@@ -15,7 +17,7 @@
     z-index: 100;
     position: fixed;
     top: 2rem;
-    right: 20rem;
+    right: 2rem;
     opacity: 50%;
   }
   
