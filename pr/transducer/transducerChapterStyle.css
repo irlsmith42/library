@@ -1,6 +1,8 @@
 :root { scroll-behavior: smooth; }
 
-* { background-color: rgb(245, 254, 237); }
+body { 
+  background-image: -moz-linear-gradient(rgb(145, 185, 165), #ffffff);
+}
 
 /* main text */
 p {

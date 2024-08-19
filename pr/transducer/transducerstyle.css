@@ -15,7 +15,7 @@ h1 {
     color:rgb(255, 255, 255);
 
   }
-  
+
 h2 {
     text-align: right;
     font-family: "DM Serif Display", serif;
@@ -33,9 +33,11 @@ h2 {
     font-size: 40pt;
     color:rgb(255, 255, 255);
   }
+  
 img {
   text-align: center;
   margin: auto;
+  opacity: 85%;
 }
 
 img:hover {
@@ -68,6 +70,7 @@ p {
   width: 70vw;
   max-width: 600px;
   padding: 2rem;
+  opacity: 100%;
 }
 
 .summary {
@@ -125,7 +128,6 @@ a {
 .column img {
   border: 2px solid rgb(255, 255, 255);
   max-height: 200px;
-  opacity: 85%;
   vertical-align: middle;
 }
 
@@ -147,7 +149,6 @@ a {
     flex-wrap: wrap;
     margin: auto;
     padding: 1rem 2rem;
-
   }
   
  }
@@ -159,7 +160,6 @@ a {
     flex-wrap: wrap;
     padding: 8px 2px;
     margin: auto;
-
   }
   
 }
