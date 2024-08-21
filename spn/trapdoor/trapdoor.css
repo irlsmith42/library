@@ -1,11 +1,221 @@
 :root { scroll-behavior: smooth; }
 
+body {
+  padding: 2rem;
+  max-width: 90vw;
+  margin: auto;
+}
 
+p {
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 60rem;
+  margin: auto;
+  padding-bottom: 1.1rem;
+}
+
+#first {
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  margin: auto;
+  max-width: 600px;
+  display: flex;
+  flex:auto;
+}
+
+p.divider {
+  text-align: center;
+  color:rgb(92, 92, 92);
+  padding-bottom: 2rem;
+}
+
+.act {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
 
 .cushion {
-    height: 25rem;
-    width: 1rem;
-    color: white;
+  height: 25rem;
+  width: 1rem;
+  color: white;
+}
+
+/*main text*/
+
+p.bizarro {
+  margin: 1.15em auto;
+  max-width: 800px;
+  text-indent: 2em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: justify;
+  letter-spacing: .4px;
+}
+
+p.disco {
+  margin: 1.15em auto;
+  max-width: 700px;
+  font-variant: small-caps;
+}
+
+.next {
+  text-align:right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:red;
+}
+
+/* death */
+p.death {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+  margin: 1.15em auto;
+  max-width: 600px;
+}
+
+/*screenplay*/
+.screenplay {
+  font-size: 1.1rem;
+  line-height: 1.15em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.screenplay.screendir {
+  width: 80vw;
+  margin: auto;
+  padding-top: 1.15rem;
+  max-width: 600px;
+}
+
+.screenplay.sectionhead {
+  width: 80vw;
+  text-align: center;
+  max-width: 600px;
+  text-decoration: underline;
+}
+
+.screenplay.character {
+  width: 45vw;
+  text-indent: 6em;
+  max-width: 400px;
+  margin: auto;
+  padding-top: 1.15em;
+  padding-bottom: 0.15rem;
+}
+
+.screenplay.dialogue {
+  width: 45vw;
+  margin: auto;
+  max-width: 400px;
+  padding-bottom: 0;
+}
+
+.screenplay.parenthetical {
+  width: 30vw;
+  max-width: 300px;
+  padding-bottom: .15rem;
+}
+
+.screenplay.transition {
+  width: 80vw;
+  margin: 1em auto .5em auto;
+  max-width: 600px;
+  text-align: right;
+}
+
+/* dreams */
+p.dream {
+  margin: 1.15em auto;
+  max-width: 600px;
+}
+
+p.dreamOne  {
+  margin-top: 1.15em;
+  margin-left: 27%;
+  margin-right: 20%;
+  max-width: 600px;
+}
+
+p.dreamTwo {
+  margin-top: 1.15em;
+  margin-left: 30%;
+  margin-right: 25%;
+  max-width: 600px;
+}
+
+#dreamAlarm {
+  color: red;
+}
+
+#dreamFade1 {
+  color: rgb(100, 100, 100);
+}
+
+#dreamFade2 {
+  color: rgb(150, 150, 150);
+}
+
+#dreamFade3 {
+  color: rgb(200, 200, 200);
+}
+
+#dreamFade4 {
+  color: rgb(250, 250, 250);
+}
+
+#dreamBlue {
+  color: rgb(208, 246, 253);
+}
+
+#dreamGreen {
+  color: rgb(215, 253, 208);
+}
+
+#dreamYellow {
+  color: rgb(255, 251, 202);
+}
+
+#dreamOrange {
+  color: rgb(245, 215, 190);
+}
+
+#dreamRed {
+  color: rgb(245, 194, 190);
+}
+
+
+/*play*/
+.play {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+}
+
+.play.stagedir {
+  width: 80vw;
+  max-width: 600px;
+  margin-left: 10em;
+}
+
+.play.char {
+  text-align: left;
+  padding-top: 1em;
+  margin-bottom: 0;
+}
+
+.play.dialog {
+  width: 80vw;
+  padding-left: 3em;
+  margin: 0 0 0 0;
+}
+
+.play.paren {
+  padding-left: 6em;
+  margin: 0 0 0 0;
+  max-width: 400px;
 }
 
 /* Dropdown Menu */
@@ -33,4 +243,37 @@
     opacity: 100%;
   }
 
-  
+/*homepage*/
+.chapterbox {
+  opacity:90%;
+}
+
+.chapterbox:hover {
+  opacity: 100%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: rgb(210, 137, 0);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px; 
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 100%; 
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
