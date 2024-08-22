@@ -283,7 +283,7 @@ p.dreamTwo {
     opacity: 100%;
   }
 
-/*homepage*/
+/*homepage
 .chapterbox {
   opacity:90%;
 }
@@ -291,7 +291,7 @@ p.dreamTwo {
 .chapterbox:hover {
   opacity: 100%;
 }
-
+*/
 .tooltip {
   position: relative;
   display: inline-block;
@@ -319,7 +319,6 @@ p.dreamTwo {
   visibility: visible;
 }
 
-
 /* next season button*/
 
 .netflixTwo {
@@ -340,4 +339,3 @@ a.netflixTwo {
   text-decoration: none;
   color: black;
 }
-
