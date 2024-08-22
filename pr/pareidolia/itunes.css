@@ -1,9 +1,34 @@
 :root { scroll-behavior: smooth; }
 
 body {
-    background-image: url(itunes.png);
+    background-image: url(bliss.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #ffffff;  
   }
+
+.itunes {
+    width: 70rem;
+    height: 70rem;
+    margin: auto;
+    background-image: url(itunes.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+  
+.playlist {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .7rem;
+    color: black;
+    line-height: .7rem;
+    top: 7.1rem;
+    right: 45vw;
+    position: absolute;
+}
+  /*fonts
+  Lucida Grande
+  Tahoma
+  Arial
+  Trebuchet MS
+  */
