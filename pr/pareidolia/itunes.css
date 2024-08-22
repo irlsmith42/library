@@ -22,10 +22,66 @@ body {
     font-size: .7rem;
     color: black;
     line-height: .7rem;
-    top: 7.1rem;
-    right: 45vw;
     position: absolute;
+    left: 33rem;
+    top: 8rem;
 }
+
+  .tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+  .tg td{border:none;
+border-style:solid;
+border-width:1px;
+font-family:Arial, sans-serif;
+font-size:13px;
+overflow:hidden;
+padding:5px 2px;
+word-break:normal;
+}
+.tg th{border:none;
+border-style:solid;
+border-width:1px;
+font-family:Arial, sans-serif;
+font-size:13px;
+font-weight:normal;
+overflow:hidden;
+padding:5px 2px;
+word-break:normal;
+}
+.tg .tg-nh8m{background-color:#f3f3f3;
+border:none;
+text-align:left;
+vertical-align:bottom;
+height:1.2rem;
+ overflow:scroll;
+}
+.tg .tg-befh{background-color:#ffffff;
+border:none;
+text-align:left;
+vertical-align:bottom;
+height:1.2rem;
+ overflow:scroll;
+}
+.tg .tg-83ox{background-color:#f3f3f3;
+border:none;
+text-align:right;
+vertical-align:bottom}
+.tg .tg-ulpm{background-color:#ffffff;
+border:none;
+text-align:right;
+vertical-align:bottom}
+.tg .tg-ebhr{background-color:#f3f3f3;
+border:none;
+text-align:right;
+vertical-align:bottom}
+.tg .tg-ynve{background-color:#f3f3f3;
+border:none;
+text-align:left;
+vertical-align:bottom}
+
+
   /*fonts
   Lucida Grande
   Tahoma
