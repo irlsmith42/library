@@ -1,0 +1,9 @@
+:root { scroll-behavior: smooth; }
+
+body {
+    background-image: url(itunes.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffffff;  
+  }
