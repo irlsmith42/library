@@ -1,0 +1,30 @@
+:root { scroll-behavior: smooth; }
+
+body {
+    background-color: aliceblue;
+    max-width: 95vw;
+}
+
+h1 {
+    font-family: "Courier Prime", 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: 300;
+    max-width: 30rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    padding-right: 6rem;
+}
+
+p {
+    font-family: "Courier Prime", 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    max-width: 50rem;
+    margin: auto;
+    padding-bottom: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.blockquote {
+    padding-right: 6rem;
+}
