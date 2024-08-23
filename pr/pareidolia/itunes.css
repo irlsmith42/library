@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 992px) {
 body {
-    background-image: url(bliss.jpg);
+    background-image: url(assets/bliss.jpg);
     background-position: top;
     background-repeat: no-repeat;
   }}
