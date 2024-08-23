@@ -8,8 +8,8 @@
     overflow-y:auto;
     transition:margin .1s linear, width .1s linear;
     width:80%;
-    border: solid 1px;
-    border-color: #eaeaea;  
+    /*border: solid 1px;
+    border-color: #eaeaea;*/  
     border-radius: .7rem;  
 }
     .app-container.scroll-is-locked .scrollable-page.svelte-4la6q7{
