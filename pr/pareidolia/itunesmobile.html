@@ -13,15 +13,62 @@
      <!-- HEAD_svelte-1frznod_END --><!-- HEAD_svelte-k67ghl_START -->    
       <script type="module" crossorigin src="index-e9c9a68d.js"></script>
       <link rel="stylesheet" href="index-2e0b6db2.css">
+      <style>
+        body {
+        background-image: url(bliss.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        }
+        .windowbar {
+            background-color: #f3f3f3;
+            border-radius: .7rem;
+            text-align: center;
+            font-size: 1rem;
+            color: gray;
+            height: 2.7rem;
+        }
+        .windowcontrols {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            height: 1rem;
+            width: 6rem;
+            padding: 1rem;
+        }
+        .circle1 {
+        height: .8rem;
+        width: .8rem;
+        background-color: #FF605C;
+        border-radius: 50%;
+        }
+        .circle2 {
+        height: .8rem;
+        width: .8rem;
+        background-color: #FFBD44;
+        border-radius: 50%;
+        }
+        .circle3 {
+        height: .8rem;
+        width: .8rem;
+        background-color: #00CA4E;
+        border-radius: 50%;
+        }
+      </style>
 </head>
 <body>
     <div id="body-container">
         <div class="app-container svelte-1oaomnd" data-testid="app-container"> 
+            <div class="windowbar">
+                <div class="windowcontrols">
+                    <div class="circle1"></div><div class="circle2"></div><div class="circle3"></div>
+                </div>
+            </div>    
         <div id="scrollable-page" class="scrollable-page svelte-4la6q7" data-testid="main-section" aria-hidden="false"> 
             <div class="player-bar svelte-lx0uvv" data-testid="player-bar" aria-label="Media Controls" aria-hidden="false">   
             </div> 
             <main data-testid="main" class="svelte-q38dtg">
-                <div class="content-container svelte-q38dtg" data-testid="content-container">        
+                <div class="content-container svelte-q38dtg" data-testid="content-container" style="background-color:white">        
                     <div class="section section--showHeaderRegular svelte-1f64bnu without-bottom-spacing" data-testid="section-container" aria-label="Featured" aria-hidden="false"> 
                         <div class="shelf-content" data-testid="shelf-content"> 
                             <div class="container-detail-header svelte-1fpig7d" data-testid="container-detail-header">
