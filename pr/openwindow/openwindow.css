@@ -1,7 +1,7 @@
 :root {scroll-behavior: smooth;}
 
 body {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 p {
@@ -45,12 +45,20 @@ h1 {
     margin: auto;
     text-align: center;
     font-size: .8rem;
-    padding-top: 18rem;
     text-align: center;
     text-indent: 0; 
     font-size: 1rem;
     font-family: "Cormorant Upright", Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
+}
+.ending:hover {
+    color:rgb(4, 149, 4);
+}
+.flashback {
+    width: 46rem;
+    max-width: 60vw;
+    margin: auto;
+    text-align: justify;
 }
 
 img {
