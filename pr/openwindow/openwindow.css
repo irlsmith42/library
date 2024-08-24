@@ -73,11 +73,13 @@ a:hover {
     margin: auto;
     line-height: 1.3rem;
 }
+
 .chat {
     max-width: 37rem;
     margin: auto;
     line-height: 2rem;
 }
+
 .chat.p {
     padding:2rem;
     text-indent: 0;
@@ -109,13 +111,24 @@ a:hover {
   }
 
 /*  Symbol Bank
-<div class="divider">⛰ ✵ ⁂ 𓇗 🂲 𓆝 𓆟 𓆞 𓆝 ➳ ⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙͙</div>
-  1. Difficulty at beginning: ䷷ 
-    2. Coming to meet: ䷫
-    3. Opposition: ䷥ 
-        4. breakthrough: ䷪ 
-        5. Pushing Upward: ䷭ 
-        6. Waiting: ䷄ 
-        7. Splitting Apart: ䷖ 
-        8. Wanderer: ䷷ 
-        */
+⛰
+✵ 
+⁂ 
+𓇗 
+🂲 
+𓆝 𓆟 𓆞 𓆝 
+➳ 
+⁎̩͙ 
+⁑̩͙̩͙ 
+⁂̩̩͙͙
+
+
+1. Difficulty at beginning: ䷷ 
+  2. Coming to meet: ䷫
+  3. Opposition: ䷥ 
+  4. breakthrough: ䷪ 
+  5. Pushing Upward: ䷭ 
+  6. Waiting: ䷄ 
+  7. Splitting Apart: ䷖ 
+  8. Wanderer: ䷷ 
+*/
