@@ -1,0 +1,80 @@
+:root {scroll-behavior: smooth;}
+
+body {
+    padding: 1rem;
+}
+
+p {
+    font-family: "Cormorant", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    max-width: 60rem;
+    margin: auto;
+    line-height: 1.7rem;
+    text-indent: 3rem;
+}
+
+p.first {
+   font-variant: small-caps;
+   text-indent: 0;
+   padding-top: 1rem;
+}
+
+h1 {
+    font-family: "Cormorant Upright", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 3rem;
+    max-width: 40rem;
+    margin: auto;
+    text-align: center;
+    line-height: 2rem;
+    padding: .5rem;
+}
+
+.divider {
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+img {
+    max-width: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(4, 149, 4);
+}
+
+a:hover {
+    color:rgb(42, 179, 42);
+}
+
+.epigraph {
+    font-family: "Cormorant", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    max-width: 35rem;
+    margin: auto;
+    line-height: 1.3rem;
+}
+.chat {
+    max-width: 37rem;
+    margin: auto;
+    line-height: 2rem;
+}
+.chat.p {
+    padding:2rem;
+    text-indent: 0;
+}
+/*  Symbol Bank
+<div class="divider">⛰ ✵ ⁂ 𓇗 🂲 𓆝 𓆟 𓆞 𓆝 ➳ ⁎̩͙ ⁑̩͙̩͙ ⁂̩̩͙͙</div>
+  1. Wanderer: ䷷ 
+        2. Coming to meet: ䷫
+        3. Opposition: ䷥ 
+        4. breakthrough: ䷪ 
+        5. Pushing Upward: ䷭ 
+        6. Gentle wind: ䷸
+        7. Splitting Apart: ䷖ 
+        8. Waiting: ䷄ 
+        */
