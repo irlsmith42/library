@@ -32,17 +32,6 @@ h1 {
     line-height: 2rem;
     padding: .5rem;
 }
-h2 {
-    font-family: "Cormorant Upright", Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 2rem;
-    margin: auto;
-    line-height: 2rem;
-}
-h2:hover {
-    background-color: rgb(218, 234, 219);
-    color:rgb(4, 149, 4)
-}
 .divider {
     margin: auto;
     text-align: center;
@@ -50,20 +39,7 @@ h2:hover {
     padding-top: 1.3rem;
     padding-bottom: .5rem;
 }
-.chapters {
-    border: solid rgb(0, 0, 0) 1px;
-    margin: auto;
-    padding: 2rem;
-    max-width: 50rem;
-}
-.symbols {
-    max-width: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 3rem;
-    margin: auto;
-}
+
 .ending {
     margin: auto;
     text-align: center;
@@ -85,14 +61,13 @@ h2:hover {
 }
 
 img {
-    max-width: 4rem;
+    max-height: 5rem;
 }
 
-a {
+a.divider {
     text-decoration: none;
     color:rgb(4, 149, 4);
 }
-
 a:hover {
     color:rgb(42, 179, 42);
 }
