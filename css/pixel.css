@@ -1,3 +1,5 @@
+root {scroll-behavior: smooth;}
+
 @font-face {
     font-family: 'Windows 95';
     src: url('../fonts/w-95-sans-serif.woff2') format('woff2'),
@@ -8,7 +10,6 @@
 /**
  * = Backgrounds
  */
-
 .bg-primary {
     background-color: #c0c0c0 !important;
 }
@@ -817,13 +818,13 @@ button.section-black:focus {
 
 @media (min-width: 576px) {
     .row.row-grid>[class*="col-sm-"]+[class*="col-sm-"] {
-        margin-top: 0;
+        margin-top: 0rem;
     }
 }
 
 @media (min-width: 768px) {
     .row.row-grid>[class*="col-md-"]+[class*="col-md-"] {
-        margin-top: 0;
+        margin-top: 0rem;
     }
 }
 
