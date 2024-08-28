@@ -28,7 +28,7 @@ p.first {
 }
 
 p.flashback {
-  color:rgb(46, 35, 27);
+  color:rgb(0, 69, 22);
   max-width: 60vw;
   text-align: left;
   font-size: 1.15rem;
@@ -46,10 +46,11 @@ p.epigraph {
 
 p.date {
   font-family: "Besley", serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color:rgb(3, 119, 5);
-  text-align: right;
-  padding-bottom: .6rem;
+  text-align: center;
+  text-indent: 0;
+  padding-bottom: .4rem;
 }
 
 p.divider {
@@ -142,12 +143,10 @@ a:visited {
     line-height: 120%;   
   }
   p.flashback {
-    color:rgb(46, 35, 27);
     max-width: 75vw;
     text-align: justify;
     font-size: 1.1rem;
     line-height: 120%;
-    opacity: 80%;
   }
 
   p.jump {
