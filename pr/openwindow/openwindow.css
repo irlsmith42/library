@@ -63,7 +63,15 @@ h1 {
 img {
     max-height: 5rem;
 }
-
+@media (max-width:500px) {
+    body {
+        padding:.9rem;
+    }
+    p {
+        line-height: 1.5rem;
+        text-indent: 2rem;
+    }
+    }
 a {
     text-decoration: none;
     color:rgb(4, 149, 4);
@@ -83,7 +91,8 @@ a:hover {
 .chat {
     max-width: 37rem;
     margin: auto;
-    line-height: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    text-indent: 0;
 }
 
 .chat.p {
@@ -96,7 +105,7 @@ a:hover {
     display: inline-block;
   }
   
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     top: -50%;
     left: 105%; 
     visibility: hidden;
@@ -112,10 +121,9 @@ a:hover {
     z-index: 1;
   }
   
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
   }
-
 /*  Symbol Bank
 ⛰
 ✵ 

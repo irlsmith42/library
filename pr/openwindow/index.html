@@ -23,11 +23,11 @@
             padding: 0;
         }
         .chapters {
-        border: solid rgb(0, 0, 0) 1px;
-        margin: auto;
-        padding: 1.5rem;
-        max-width: 50rem;
-        color: black;
+            border: solid rgb(0, 0, 0) 1px;
+            margin: auto;
+            padding: 1.5rem;
+            max-width: 50rem;
+            color: black;
         }
         .symbols {
             max-width: 50rem;
@@ -36,6 +36,36 @@
             justify-content:space-between;
             height: 3rem;
             margin: auto;
+        }
+        @media (max-width: 700px) {
+        #treehouse {
+            display:none;
+        }
+        #gcompass {
+            display:none;
+        }
+        .symbols {
+            height: 4rem;
+        }
+        }
+        @media (max-width: 500px) {
+        #binoculars {
+            display:none;
+        }
+        #satellite {
+            display:none;
+        }
+        .chapters {
+            padding: 1rem;
+        }
+        }
+        @media (max-width: 380px) {
+        #fern {
+            display:none;
+        }
+        #darwin {
+            display:none;
+        }
         }
         h2 {
         font-family: "Cormorant Upright", Georgia, 'Times New Roman', Times, serif;
@@ -54,13 +84,13 @@
 <body>
 <div class="wrapper">
     <div class="symbols">
-        <img src="iconFern.png">
-        <img src="iconTreeHouse.png">
-        <img src="iconBinoculars.png">
+        <img src="iconFern.png" id="fern">
+        <img src="iconTreeHouse.png" id="treehouse">
+        <img src="iconBinoculars.png" id="binoculars">
         <h1>An Open Window </h1>
-        <img src="iconGCompass.png">
-        <img src="iconDarwin.png">
-        <img src="iconSatellite.png">
+        <img src="iconGCompass.png" id="gcompass">
+        <img src="iconSatellite.png" id="satellite">
+        <img src="iconDarwin.png" id="darwin">
     </div>
     <div class="chapters">
     <h2><a href="ch1.html">1 ䷂ The Cave of Consciousness</a></h2>
