@@ -1,0 +1,133 @@
+:root { scroll-behavior: smooth; }
+
+body {
+  padding: 2rem;
+  max-width: 90vw;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: 'Cutive Mono', Courier, monospace;
+  letter-spacing: -.1rem;
+  word-spacing: -0.2rem;
+  margin: auto;
+}
+
+p.divider {
+  text-align: center;
+  color:rgb(92, 92, 92);
+  padding-bottom: 2rem;
+}
+
+.act {
+  margin-top: 2rem;
+  border: solid 1px black;
+  margin-bottom: 50vh;
+  padding: 3rem 0 3rem 0;
+  max-width: 55rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.series {
+  padding-left: 2rem;
+  max-width: 40rem;
+  margin: auto;
+}
+
+.cushion {
+  height: 25rem;
+  width: 1rem;
+  color: white;
+}
+
+p.sectionhead {
+  max-width: 20rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.screendir {
+  max-width: 43rem;
+  padding-top: 1.4rem;
+  padding-bottom: 0rem;
+}
+
+p.character {
+  max-width: 20rem;
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 0.1rem;
+}
+
+p.dialogue {
+  margin: auto;
+  max-width: 30rem;
+  padding-bottom: 0;
+}
+
+p.parenthetical {
+  max-width: 20rem;
+  padding-bottom: .1rem;
+}
+
+p.transition {
+  margin: auto;
+  max-width: 40rem;
+  text-align: right;
+  padding-top: 1rem;
+}
+/* next episode button*/
+
+.bottombar {
+  margin-left: 70vw;
+}
+
+.next {
+  width: 10rem;
+  height: 1.5rem;
+  text-align:center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: .5rem;
+  background-color: transparent;
+}
+
+.netflix {
+  background-color: gray; 
+  width: 11.1rem;
+  height: 2.6rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 4px;
+  opacity: 30%;
+}
+
+.netflix:hover {
+  animation: nextEpisode 5s linear;
+  opacity: 100%;
+}
+
+.next:hover {
+  opacity:100%;
+}
+
+a.netflix {
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes nextEpisode {
+  0%   {width: .1rem;}
+  100% {width: 11.1rem;}
+}
+
