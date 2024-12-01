@@ -15,7 +15,7 @@ root {scroll-behavior: smooth;}
 }
 
 .bg-secondary {
-    background-color: #008081 !important;
+    background-color: transparent;
 }
 
 .bg-tertiary {
@@ -1914,6 +1914,8 @@ button.section-black:focus {
     position: relative;
     padding-top: 1em;
     padding-bottom: 1em;
+    background: url(/images/gifs/cd.gif) left no-repeat, url(/images/gifs/lalalamp.gif) right no-repeat, url(/images/gifs/goldfish_in_a_bowl.gif) bottom no-repeat;
+    background-size: 80px;
 }
 
 @media (min-width: 576px) {
