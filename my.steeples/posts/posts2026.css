@@ -1,0 +1,54 @@
+body {
+    background-color: #d3e3fd;
+    width: 100vw;
+}
+
+.post {
+    background-color: white;
+    padding: 2em;
+    width: 90vw;
+    max-width: 8.5in;
+    text-indent: 2em;
+    flex: auto;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: auto;
+}
+
+p.blockquote {
+    text-indent: 0;
+    padding-left: 2em;
+    padding-right: 4em;
+    text-align: justify;
+}
+
+h3 {
+    text-indent: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tumblr {
+    background-color: rgb(80, 80, 169);
+    padding: 2rem;
+    width: 70vw;
+    color: rgb(189, 200, 209);
+    flex: auto;
+}
+
+.tumblrpost {
+    background-color: aliceblue;
+    color: black;
+    font-family: Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    font-size: small;
+}
+
+.tumblrtag {
+    color: rgb(189, 200, 209);
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    text-decoration: underline;
+}
